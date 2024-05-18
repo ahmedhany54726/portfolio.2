@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+   background-size: contain;
+   background-attachment: scroll;
+} 
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+p{
+    color: blueviolet;
+    font-size: large;
+}
+
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.a1{
+ margin-right:100%;
+ border-radius: 50%;
+ 
+}
+@media(max-width:1000px){
+}
+    section{
+        padding: 100px 18%;
+    }
+    .home{
+        height: auto;
+    }
+    .home-img img{
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+    
+    }
+    :root{
+        --h1-font: 2.1rem;
+    }
